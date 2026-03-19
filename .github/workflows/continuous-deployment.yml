@@ -37,7 +37,7 @@ jobs:
       run: |
         docker build -f ./fss-site-v2/Dockerfile \
             -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
-            ./dvn-workshop-apps/backend/YoutubeLiveApp
+            .
         docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
     - uses: actions/checkout@v6
