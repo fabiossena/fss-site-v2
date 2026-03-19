@@ -1,0 +1,339 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "contact": "Contato"
+  },
+  "actions": {
+    "getStarted": "Começar"
+  },
+  "section": {
+    "tag": "// SERVIÇOS",
+    "title": "Planos organizados por",
+    "highlight": "necessidade",
+    "description": "Do suporte básico à operação de missão crítica, oferecemos planos que acompanham a maturidade e as necessidades da sua empresa."
+  },
+  "servicesSection": {
+    "label": "// SERVIÇOS",
+    "title": "Planos organizados por",
+    "highlight": "necessidade",
+    "description": "Do suporte básico à operação de missão crítica, oferecemos planos que acompanham a maturidade e as necessidades da sua empresa."
+  },
+  "plans": {
+    "labels": {
+      "objective": "Objetivo",
+      "services": "Serviços",
+      "practices": "Práticas & Tecnologias",
+      "results": "Resultados Esperados"
+    },
+    "essential1": {
+      "title": "Essential 1: Sustentação",
+      "subtitle": "Manutenção & Estabilidade Operacional",
+      "objective": "Garantir a continuidade operacional, estabilidade e redução proativa de incidentes em sistemas existentes.",
+      "services": [
+        "Manutenção corretiva e evolutiva de sistemas legados e modernos",
+        "Refatoração de código e redução de débito técnico",
+        "Suporte técnico especializado em múltiplas camadas (L1 a L3)",
+        "Administração e otimização de bancos de dados relacionais e NoSQL",
+        "Gestão de dependências e atualizações de segurança"
+      ],
+      "practices": [
+        "Linguagens: C#, Java, Python, PHP, Go, JavaScript/TypeScript",
+        "Frameworks: .NET Core/6+, Spring Boot, Django, Laravel, React, Vue.js",
+        "Versionamento: Git com fluxos estruturados (GitFlow, GitHub Flow)",
+        "Code Review sistemático com checklists técnicos",
+        "Monitoramento básico (logs, métricas de aplicação)",
+        "Backups automatizados e testes de restauração",
+        "Testes unitários e de integração mantidos"
+      ],
+      "results": [
+        "Redução de >40% em incidentes críticos",
+        "Ambientes estáveis e previsíveis",
+        "MTTR (Mean Time To Resolution) otimizado",
+        "Código mais limpo e sustentável",
+        "Conformidade com SLAs operacionais"
+      ]
+    },
+    "essential2": {
+      "title": "Essential 2: Desenvolvimento",
+      "subtitle": "Novos Projetos & Funcionalidades",
+      "objective": "Desenvolver soluções inovadoras com arquitetura moderna, qualidade garantida e entrega contínua de valor.",
+      "services": [
+        "Desenvolvimento de novas funcionalidades e módulos",
+        "Implementação de sistemas greenfield com arquitetura moderna",
+        "Migração estratégica de sistemas legados para tecnologias atuais",
+        "Integração de APIs REST/GraphQL e arquitetura de microsserviços",
+        "Design e implementação de arquiteturas escaláveis (event-driven, CQRS)"
+      ],
+      "practices": [
+        "DDD (Domain-Driven Design) com bounded contexts",
+        "TDD (Test Driven Development) e BDD (Behavior Driven Development)",
+        "CI/CD básico com pipelines automatizados",
+        "Frameworks frontend: React, Vue.js, Angular, Blazor, Razor Pages",
+        "UI Libraries: Material-UI, Ant Design, Lucide, Tailwind UI",
+        "Arquitetura hexagonal e clean architecture",
+        "Pair programming e mob programming para complexidades",
+        "Documentação técnica viva (Swagger/OpenAPI, Archimate)"
+      ],
+      "results": [
+        "Time-to-market reduzido em 30-50%",
+        "Soluções com alta cobertura de testes (>80%)",
+        "Arquiteturas sustentáveis e fáceis de evoluir",
+        "Código com baixo acoplamento e alta coesão",
+        "Entrega contínua de valor mensurável"
+      ]
+    },
+    "essential3": {
+      "title": "Essential 3: Dados",
+      "subtitle": "Bancos de Dados & Escalabilidade",
+      "objective": "Otimizar performance, garantir escalabilidade horizontal/vertical e assegurar resiliência de dados em diferentes workloads.",
+      "services": [
+        "Otimização avançada de queries e planos de execução",
+        "Replicação síncrona/assíncrona e alta disponibilidade (HA)",
+        "Disaster Recovery com RTO/RPO definidos",
+        "Modelagem dimensional e design de schemas otimizados"
+      ],
+      "practices": [
+        "SGBDs: PostgreSQL, MySQL, SQL Server, Redis",
+        "Monitoramento: Query performance insights, deadlocks, wait stats",
+        "Backup estratégico: full, differential, transaction log",
+        "Indexação inteligente e particionamento"
+      ],
+      "results": [
+        "Performance otimizada (latência reduzida em 60%+)",
+        "Custos operacionais otimizados com scaling adequado",
+        "Disponibilidade de dados >99.9%",
+        "Recuperação garantida em cenários de desastre",
+        "Escalabilidade previsível para crescimento"
+      ]
+    },
+    "professional1": {
+      "title": "Professional 1: Infraestrutura",
+      "subtitle": "DevOps, IaC & Automação",
+      "objective": "Implementar infraestrutura como código, pipelines de entrega contínua e ambientes reproduzíveis com segurança e governança.",
+      "services": [
+        "Infrastructure as Code: Terraform, Pulumi, AWS CDK, Crossplane",
+        "Automação de configuração com Ansible",
+        "CI/CD enterprise com GitHub Actions",
+        "GitOps: ArgoCD, FluxCD para deployment declarativo",
+        "Containerização: Docker, containerd, Podman",
+        "Orquestração: Kubernetes, Nomad, Docker Swarm",
+        "Cloud: AWS, Azure, GCP com arquiteturas bem-architected"
+      ],
+      "practices": [
+        "GitOps com rollback automático e approval gates",
+        "Infraestrutura imutável e versionada",
+        "Pipeline as Code com templates reutilizáveis",
+        "Security scanning em todos os estágios (SAST, DAST, SCA)",
+        "Multi-cloud e hybrid cloud estratégicos",
+        "Service Mesh: Istio, Linkerd para observabilidade",
+        "Secret management: HashiCorp Vault, AWS Secrets Manager"
+      ],
+      "results": [
+        "Deployments frequentes e previsíveis (vários/dia)",
+        "Recuperação de desastres em minutos",
+        "Consistência entre ambientes (dev, staging, prod)",
+        "Custos otimizados com auto-scaling",
+        "Conformidade automatizada com políticas"
+      ]
+    },
+    "professional2": {
+      "title": "Professional 2: Observabilidade",
+      "subtitle": "Monitoramento & Telemetria Corporativa",
+      "objective": "Prover visibilidade completa, detecção proativa e insights acionáveis através de telemetria em tempo real.",
+      "services": [
+        "Implementação de observabilidade completa: métricas, logs, traces",
+        "Dashboards corporativos: Grafana, New Relic, Datadog, Dynatrace",
+        "APM (Application Performance Monitoring) e RUM (Real User Monitoring)",
+        "Alerting inteligente com machine learning e anomaly detection",
+        "Distributed tracing: Jaeger, Zipkin, AWS X-Ray",
+        "Synthetic monitoring e checagens de experiência do usuário"
+      ],
+      "practices": [
+        "OpenTelemetry para instrumentação padrão",
+        "4 Golden Signals + RED e USE methodologies",
+        "Log aggregation: ELK Stack, Loki, Splunk",
+        "SLO/SLI/SLA definition e error budget tracking",
+        "AIOps para detecção automática de anomalias",
+        "Correlação de eventos entre sistemas",
+        "Observability as Code com configuração versionada"
+      ],
+      "results": [
+        "MTTD (Mean Time To Detect) reduzido para minutos",
+        "Visibilidade completa da stack tecnológica",
+        "Alertas inteligentes com baixo ruído",
+        "Decisões baseadas em dados em tempo real",
+        "Problemas detectados antes dos usuários"
+      ]
+    },
+    "professional3": {
+      "title": "Professional 3: Confiabilidade",
+      "subtitle": "Site Reliability Engineering",
+      "objective": "Garantir confiabilidade, resiliência e operações previsíveis através de engenharia sistemática e automação.",
+      "services": [
+        "Definição e implementação de SLIs, SLOs, SLAs",
+        "Gestão de incidentes com playbooks e war rooms",
+        "Post-mortems com blameless culture e action items",
+        "Capacity planning e performance forecasting",
+        "Chaos engineering e resilience testing",
+        "Automação de operações (chatops, runbooks automatizados)"
+      ],
+      "practices": [
+        "Error budget management e trade-offs conscientes",
+        "Game days e failure injection testing",
+        "Runbooks executáveis com auto-remediation",
+        "Toil reduction através de automação",
+        "Canary deployments e feature flagging",
+        "Service Level Objectives com múltiplas dimensões",
+        "Incident response com escalonamento automatizado"
+      ],
+      "results": [
+        "Disponibilidade >99.95% para serviços críticos",
+        "MTTR (Mean Time To Resolve) otimizado",
+        "Operações previsíveis e escaláveis",
+        "Redução >70% em toil manual",
+        "Cultura de aprendizado contínuo com incidentes"
+      ]
+    },
+    
+    "cloud": {
+      "title": "Enterprise 1: Otimização Cloud",
+      "subtitle": "Serverless & Managed Services Excellence",
+      "objective": "Maximizar o uso de serviços gerenciados de nuvem para obter eficiência operacional extrema, redução de overhead e foco em negócio.",
+      "services": [
+        "Arquitetura serverless-first com AWS Lambda, Azure Functions",
+        "Containerização serverless: AWS Fargate, Azure Container Instances",
+        "Observabilidade enterprise: AWS CloudWatch, Azure Monitor, Grafana Cloud",
+        "Event-driven architectures com serviços gerenciados (EventBridge, SQS)",
+        "Managed databases: RDS, Aurora, Azure SQL Managed Instance"
+      ],
+      "practices": [
+        "CloudWatch Logs Insights, Metrics, Contributor Insights",
+        "Karpenter para gerenciamento de recursos serverless",
+        "Infrastructure as Code com módulos reutilizáveis",
+        "Event-driven design patterns com serviços gerenciados",
+        "Fargate com auto-scaling baseado em métricas customizadas",
+        "X-Ray trace distribuído para aplicações serverless"
+      ],
+      "results": [
+        "Redução de 70%+ em overhead operacional",
+        "Time-to-market para novos serviços em horas",
+        "Escalabilidade automática sob demanda",
+        "Operações gerenciadas pelos provedores de cloud",
+        "Foco da equipe em features, não em infraestrutura",
+        "Resiliência comprovada em múltiplas regions"
+      ]
+    },
+
+    "enterprise2": {
+      "title": "Enterprise 2: IA",
+      "subtitle": "IA Generativa & Automação Cognitiva",
+      "objective": "Implementar soluções de IA que automatizam processos complexos, aumentam produtividade e geram insights estratégicos.",
+      "services": [
+        "Integração de IA generativa em sistemas empresariais",
+        "Automação de processos com RPA inteligente",
+        "Assistentes corporativos com retrieval-augmented generation (RAG)",
+        "Model Context Protocol (MCP) para integração segura",
+        "Fine-tuning de modelos para domínios específicos",
+        "Computer vision e processamento de linguagem natural"
+      ],
+      "practices": [
+        "RAG (Retrieval-Augmented Generation) com vetorização",
+        "Context management e guardrails de segurança",
+        "Prompt engineering avançado e chain-of-thought",
+        "LLM ops: versioning, monitoring, evaluation",
+        "Frameworks: LangChain, LlamaIndex, Semantic Kernel",
+        "Model serving: vLLM, TensorFlow Serving, Triton",
+        "Avaliação contínua de modelos e drift detection"
+      ],
+      "results": [
+        "Automação de processos manuais (70%+ redução)",
+        "Decisões mais rápidas com insights de IA",
+        "Produtividade aumentada com assistentes inteligentes",
+        "Inovação acelerada com prototipagem rápida",
+        "Governança e compliance em soluções de IA"
+      ]
+    },
+    "enterprise3": {
+      "title": "Enterprise 3: Missão Crítica",
+      "subtitle": "Arquitetura Corporativa & Segurança",
+      "objective": "Operar sistemas críticos com requisitos extremos de segurança, compliance, disponibilidade e performance.",
+      "services": [
+        "Arquitetura de sistemas distribuídos de larga escala",
+        "DevSecOps com segurança shift-left e shift-right",
+        "Auditorias técnicas e compliance (ISO, SOC2, GDPR, LGPD)",
+        "Arquiteturas de alta disponibilidade multi-region",
+        "Business continuity e disaster recovery enterprise",
+        "Performance engineering para sistemas transaction-heavy"
+      ],
+      "practices": [
+        "Zero Trust Architecture com micro-segmentation",
+        "Security by design em todos os componentes",
+        "Infraestrutura resiliente com failure domains",
+        "Documentação viva com arquitectural decision records",
+        "Frameworks: TOGAF, Zachman para arquitetura empresarial",
+        "Penetration testing contínuo e bug bounty programs",
+        "Criptografia end-to-end e confidential computing"
+      ],
+      "results": [
+        "Compliance garantido com regulamentações",
+        "Disponibilidade >99.99% para missão crítica",
+        "Segurança proativa com threat intelligence",
+        "Resiliência comprovada em testes de stress",
+        "Governança completa com audit trails"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • IA • Cloud Native • Security",
+    "title": {
+      "before": "Software confiável,",
+      "highlight": "infraestrutura automatizada",
+      "after": "e operações resilientes"
+    },
+    "subtitle": "Unimos engenharia de software, DevOps, SRE, IA e métodos ágeis para entregar sistemas estáveis, escaláveis e seguros para ambientes críticos.",
+    "cta": {
+      "primary": "Solicitar diagnóstico técnico",
+      "secondary": "Falar com um especialista"
+    },
+    "trust": "Tecnologias e práticas que utilizamos"
+  },
+  "footer": {
+    "description": "Parceira estratégica de tecnologia, focada em confiabilidade, escalabilidade, automação, segurança e entrega contínua de valor.",
+    "location": "São Paulo, Brasil",
+    "sections": {
+      "services": "Serviços",
+      "company": "Empresa",
+      "resources": "Recursos"
+    },
+    "services": {
+      "essential1": "Essential",
+      "essential2": "Projects",
+      "essential3": "Data & Scale",
+      "professional1": "Infrastructure",
+      "professional2": "Observability",
+      "professional3": "SRE",
+      "enterprise1": "Cloud",
+      "enterprise2": "AI & Automation",
+      "enterprise3": "Enterprise"
+    },
+    "company": {
+      "about": "Sobre",
+      "careers": "Carreiras",
+      "blog": "Blog",
+      "contact": "Contato"
+    },
+    "resources": {
+      "docs": "Documentação",
+      "caseStudies": "Case Studies",
+      "whitepapers": "Whitepapers",
+      "status": "Status"
+    },
+    "cta": {
+      "title": "Pronto para transformar sua infraestrutura?",
+      "subtitle": "Entre em contato e descubra como podemos ajudar sua empresa a alcançar novos patamares de confiabilidade e eficiência.",
+      "primary": "Solicitar diagnóstico",
+      "secondary": "Falar com um especialista"
+    },
+    "rights": "Todos os direitos reservados."
+  }
+}
