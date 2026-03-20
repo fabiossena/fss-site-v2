@@ -6,7 +6,8 @@ on:
     - main
 env:
     REPOSITORY: production/fss-site-v2
-    IMAGE_TAG: ${{ github.sha }}
+    IMAGE_TAG: latest 
+# ${{ github.sha }}
 
 permissions:
   id-token: write
