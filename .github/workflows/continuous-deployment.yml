@@ -48,12 +48,10 @@ jobs:
       env:
         REGISTRY: ${{ steps.login-ecr.outputs.registry }}
       run: |
-        ls
-        ls ./
         kustomize edit set image $REGISTRY/$REPOSITORY=$REGISTRY/$REPOSITORY:$IMAGE_TAG
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
-        git add terraform-aws-eks-apps/kustomization.yml
+        git add kustomization.yml
         git commit -m "[BOT] Changing image to $REGISTRY/$REPOSITORY:$IMAGE_TAG"
         git push
 
